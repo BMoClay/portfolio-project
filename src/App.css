@@ -3,7 +3,9 @@
 :root {
   --primary-white: #fff;
   --primary-teal: #00c4cc;
-  --primary-dark: rgba(255,255,255, 0)
+  --primary-dark: rgba(255,255,255, 0);
+  --primary-yellow: #b8cc00;
+  --primary-hover-yellow: #b8cc00;
 }
 
 body {
@@ -12,8 +14,12 @@ body {
 
 /***************** NAVBAR ******************/
 
+.nav {
+  z-index: 2;
+}
+
 /* .logo {
-  
+  width: 16.25rem;  
 } */
 
 /*------ MenuLinks -----------*/
@@ -48,4 +54,58 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-teal);
+}
+
+/************** HEADER *****************/
+
+.header-wrapper {
+  position: relative;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Slab" serif;
+}
+
+.main-info h1 {
+  color: var(--primary-teal);
+  text-transform: uppercase;
+}
+
+/*-----TYPED TEXT ------*/
+
+.typed-text {
+    font-size: 2em;
+    color: var(--primary-white);
+}
+
+/*-------HEADER MAIN OFFER BUTTON--------*/
+.btn-main-offer {
+  border: 1px solid var(--primary-yellow);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: .625rem .75rem .75rem .75rem;
+  color: var(--primary-white);
+  margin: 2rem; 
+}
+
+/*--------- PARTICLES JS--------*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+  z-index: 1;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from '../Logo_BMC.png';
+// import logo from '../Logo_BMC.png';
+import logo from '../b.png';
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
