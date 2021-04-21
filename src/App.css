@@ -14,7 +14,7 @@ body {
 
 /***************** NAVBAR ******************/
 
-.nav {
+nav {
   z-index: 2;
 }
 
@@ -73,6 +73,7 @@ nav ul li {
   left: 0;
   right: 0;
   bottom: 0;
+  /* padding: 8rem; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -81,7 +82,9 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-teal);
+  /* color: var(--primary-teal); */
+  color: var(--primary-white);
+  /* margin: 1rem; */
   text-transform: uppercase;
 }
 
@@ -89,6 +92,7 @@ nav ul li {
 
 .typed-text {
     font-size: 2em;
+    /* margin: 1rem; */
     color: var(--primary-white);
 }
 
@@ -96,10 +100,12 @@ nav ul li {
 .btn-main-offer {
   border: 1px solid var(--primary-yellow);
   text-transform: uppercase;
-  border-radius: 0;
+  background-color:var(--primary-teal); opacity: 90%;
+  font-size: .875em;
+  border-radius: 1;
   padding: .625rem .75rem .75rem .75rem;
-  color: var(--primary-white);
-  margin: 2rem; 
+  color: rgb(249, 250, 252);
+  margin: 4rem; 
 }
 
 /*--------- PARTICLES JS--------*/

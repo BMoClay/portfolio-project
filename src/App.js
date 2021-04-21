@@ -11,10 +11,19 @@ function App() {
       <Particles
         params={{
           particles: {
-            value: 30,
-            density: {
-              enabled: true,
-              value_area: 900,
+            number: {
+              value: 30,
+              density: {
+                enabled: true,
+                value_area: 900,
+              } 
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 6,
+                color: "#f9ab00"
+              }
             }
           }
         }}
