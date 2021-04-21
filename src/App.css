@@ -44,10 +44,15 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
-  /* padding: 0 !important; */
+  /* padding: 0 !important; */ 
   /* height: 6rem !important; */
 }
 
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 7rem,
+  }
+}
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-teal);
 }
@@ -79,6 +84,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Slab" serif;
+  z-index: none;
 }
 
 .main-info h1 {
@@ -89,29 +95,49 @@ nav ul li {
 }
 
 /*-----TYPED TEXT ------*/
-
 .typed-text {
     font-size: 2em;
     /* margin: 1rem; */
     color: var(--primary-white);
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5 rem !important;
+  }
+  .typed-text {
+    font-size: 1.7 rem !important;
+  }
+}
+
 /*-------HEADER MAIN OFFER BUTTON--------*/
 .btn-main-offer {
   border: 1px solid var(--primary-yellow);
   text-transform: uppercase;
-  background-color:var(--primary-teal); opacity: 90%;
+  background-color:var(--primary-teal); opacity: 80%;
   font-size: .875em;
   border-radius: 1;
   padding: .625rem .75rem .75rem .75rem;
   color: rgb(249, 250, 252);
-  margin: 4rem; 
+  margin: 6rem; 
 }
 
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-yellow);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
 /*--------- PARTICLES JS--------*/
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vh;
   z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
 }
