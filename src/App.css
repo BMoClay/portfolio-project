@@ -473,3 +473,29 @@ nav ul li {
 .hyper-link:hover {
   color: var(--primary-dark)
 }
+
+/***************** MEDIA ******************/ 
+
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media(max-height: 570px) {
+  .popupbox-wrapper{
+    height: 100%;
+  }
+  .portfolio-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media(max-height: 280px) {
+  .popupbox-wrapper{
+    height: 90%;
+  }
+  .portfolio-image-popupbox {
+    width: 30%;
+  }
+}
