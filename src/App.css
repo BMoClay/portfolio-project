@@ -552,11 +552,17 @@ nav ul li {
 
 .carousel .slide img {
   width: 10rem !important;
-  border-radius: 100%;
-  padding-top: 2rem;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem
 }
 
 .carousel-root {
   margin: auto !important;
   margin-top: 3% !important;
 }
+
