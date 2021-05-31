@@ -9,6 +9,7 @@
   --primary-dark: rgb(52, 58, 64);
   --primary-yellow: #b8cc00;
   --primary-hover-yellow: #b8cc00;
+  --primary-green: green;
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
 }
@@ -18,19 +19,11 @@ body {
 }
 
 /***************** NAVBAR ******************/
-
 nav {
   z-index: 2;
 }
-
-/* .logo {
-  width: 16.25rem;  
-} */
-
 /*------ MenuLinks -----------*/
-
 nav a.nav-link {
-  /* font-weight: 500; */
   font-size: 90%;
   letter-spacing: 0.0375px;
   cursor: pointer;
@@ -49,8 +42,6 @@ nav ul li {
 
 .navbar-brand {
   max-width: 17.25rem;
-  /* padding: 0 !important; */ 
-  /* height: 6rem !important; */
 }
 
 @media(max-width: 768px) {
@@ -67,7 +58,6 @@ nav ul li {
 }
 
 /************** HEADER *****************/
-
 .header-wrapper {
   position: relative;
   background: url(background.jpg) no-repeat;
@@ -92,7 +82,6 @@ nav ul li {
 }
 
 .main-info h1 {
-  /* color: var(--primary-teal); */
   color: var(--primary-white);
   /* margin: 1rem; */
   text-transform: uppercase;
@@ -101,7 +90,6 @@ nav ul li {
 /*-----TYPED TEXT ------*/
 .typed-text {
     font-size: 2em;
-    /* margin: 1rem; */
     color: var(--primary-white);
 }
 
@@ -155,7 +143,6 @@ nav ul li {
 }
 
 .profile-pic {
-  /* height: 16rem; */
   height: 16rem;
   border-radius: 50%;
   padding: .3rem;
@@ -174,7 +161,6 @@ nav ul li {
 }
 
 /*------------ SERVICES --------------*/
-
 .services {
   text-align: center;
   padding-bottom: 2rem;
@@ -229,24 +215,20 @@ nav ul li {
 .services .box:hover p {
   color: var(--primary-dark);
 }
-
 /*------------ EXPERIENCE --------------*/
 /* 
 .experience {
   padding: 0.7rem;
 }
-
 .experience-wrapper {
   position: absolute;
   padding: 3.125rem 0;
   overflow: hidden;
 }
-
 .experience h1 {
   text-transform: uppercase;
   color: var(--primary-yellow);
 }
-
 .experience-wrapper::before {
   position: absolute;
   content: '';
@@ -258,23 +240,19 @@ nav ul li {
   background: var(--primary-grey);
   z-index: 1;
 }
-
 .timeline-block {
   width: calc(50% + 0.5rem);
   display: flex;
   justify-content: space-between;
   clear: both;
 }
-
 .timeline-block-right {
   float: right; 
 }
-
 .timeline-block-left {
   float: left;
   direction: rtl;
 }
-
 .marker {
   width: 1rem;
   height: 1rem;
@@ -284,21 +262,18 @@ nav ul li {
   margin-top: 0.625rem;
   z-index: 3;
 }
-
 .timeline-content {
   width: 95%;
   padding: 0.09375rem;
   color: var(--primary-dark-grey);
   direction: ltr;
 }
-
 .timeline-content h3 {
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
 } */
-
-/* ***************** EXPERIENCE (connor) ***************************  */
+/* ***************** EXPERIENCE ***************************  */
 .experience{
   padding: 0.7rem;
 }
@@ -345,7 +320,6 @@ nav ul li {
   height: 1rem;
   border-radius:50%;
   border: 0.3125rem solid var(--primary-dark-gray);
-  /* border: 0.3125rem solid var(-); */
   background: var(--primary-orange);
   margin-top: 0.625rem;
   z-index: 3;
@@ -363,8 +337,7 @@ nav ul li {
   color: var(--primary-red);
 }
 
-
-/* ***************** EXPERIENCE MEDIA (connor) ***************************  */
+/* ***************** EXPERIENCE MEDIA ***************************  */
 @media(max-width:758px){
   .experience .container{
     padding-left:0;
@@ -383,8 +356,6 @@ nav ul li {
    width:100%;
  }
 }
-
-
 /*------------ MEDIA --------------*/
 /* @media(max-width: 758px) {
   .experience-wrapper .container {
@@ -398,14 +369,12 @@ nav ul li {
     float: none;
     width: 100%;
   }
-
   .timeline-block-left {
     float: none;
     direction: ltr;
     width: 100%;
   }
 } */
-
 /*------------ PORTFOLIO --------------*/
 .portfolio-wrapper {
   background: var(--primary-light-grey);
@@ -427,7 +396,7 @@ nav ul li {
   margin: 1rem;
 }
 
-/***************** Overflow Box ******************/
+/***************** Overflow ******************/
 .overflow {
   position: absolute;
   opacity: 0;
@@ -460,7 +429,6 @@ nav ul li {
 }
 
 /***************** Overflow Box ******************/
-
 .portfolio-image-popupbox {
   width: 45rem;
   padding: 0 0.5rem;
@@ -475,29 +443,73 @@ nav ul li {
   color: var(--primary-dark)
 }
 
-/***************** MEDIA ******************/ 
+/***************** MEDIA POP UP BOX ******************/ 
+
+@media(max-width: 890px){
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+  .popup-desc{
+  width: 100%;
+  font-size: .7rem;
+  }
+  .hyper-link{
+    width: 60%;
+    font-size: .6rem;
+  }
+  .link-desc{
+  font-size: .8rem;
+  }
+ }
 
 @media(max-width: 768px) {
   .portfolio-image-popupbox {
     width: 100%;
   }
+  .popup-desc{
+    width: 100%;
+    font-size: .7rem;
+  }
+  .hyper-link{
+    width: 60%;
+    font-size: .6rem;
+  }
+  .link-desc{
+  font-size: .8rem;
+  }
 }
 
 @media(max-height: 570px) {
   .popupbox-wrapper{
-    height: 100%;
+    height: 100% !important;
   }
   .portfolio-image-popupbox {
-    width: 50%;
+    width: 60%;
+  }
+  .popup-desc{
+    width: 80%;
+    font-size: .7rem;
+  }
+  .hyper-link{
+    width: 80%;
+    font-size: .6rem;
   }
 }
 
 @media(max-height: 280px) {
   .popupbox-wrapper{
-    height: 90%;
+    height: 100% !important;
   }
   .portfolio-image-popupbox {
-    width: 30%;
+    width: 40%;
+  }
+  .popup-desc{
+    width: 80%;
+    font-size: .7rem;
+  }
+  .hyper-link{
+    width: 80%;
+    font-size: .6rem;
   }
 }
 
@@ -566,3 +578,110 @@ nav ul li {
   margin-top: 3% !important;
 }
 
+/* ***************** Contact Component***************************  */
+.contact{
+  background: var(--primary-dark);
+  padding: 3rem;
+}
+
+.contact h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contact p {
+  color: var(--primary-white);
+  font-size: 1.2rem;
+}
+
+/* ***************** Inputs***************************  */
+.contact input, .contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  color: var(--primary-orange);
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-white);
+  border-radius: 0;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus, .contact textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-white);
+}
+
+.contact textarea {
+  height: 12.2rem !important;
+}
+
+.btn-primary{
+  margin: 2 rem 0 0 0;
+  width: 100%;
+  background-color: var(--primary-dark) !important;
+  color: var(--primary-white) !important;
+  border-color: var(--primary-red) !important;
+}
+.btn-primary:hover {
+  background-color: var(--primary-red) !important;
+  color: var(--primary-white) !important;
+  border-color: var(--primary-red) !important;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin: -0.3rem 0;
+}
+
+textarea.form-control{
+  margin: -0.3rem 0;
+}
+
+.error-message{
+  color: var(--primary-white);
+  background: var(--primary-hover-yellow);
+  text-align: left;
+}
+
+.success-message{
+  font-weight: 900;
+  color: var(--primary-green);
+}
+ /* ***************** Media Input***************************  */
+
+@media(max-width: 768px){
+
+  .contact {
+    overflow-x: hidden;
+  }
+  .contact .container{
+    padding: 0 1rem;
+  }
+
+  .contact p {
+    padding: 0 .4rem;
+  }
+}
