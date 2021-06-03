@@ -6,14 +6,16 @@ const Header = () => {
     return (
       <div id="home" className='header-wrapper'>
           <div className="main-info">
-                <h1>web development and websites promotions</h1>
+                {/* <h1>Ben Morgan-Cleveland</h1> */}
+                <h1>Full Stack Web Developer</h1>
                 <Typed
                     className='typed-text'
-                    strings={['Web Design', 'Web Development', 'Facebook Ads SMM', 'Google Ads']}
+                    strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresQL', 'Firebase', 'Git']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
                 />
+                {/* <br></br> */}
                 <a href="#" className="btn-main-offer">contact me</a>
           </div>
       </div>

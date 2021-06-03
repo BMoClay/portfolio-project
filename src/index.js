@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Theme from './Theme';
 
 ReactDOM.render(
+  // <React.StrictMode Theme={Theme}>
   <React.StrictMode>
     <App />
   </React.StrictMode>,
