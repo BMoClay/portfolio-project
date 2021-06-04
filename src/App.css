@@ -12,10 +12,10 @@
   --primary-transparent-black: rgba(0,0,0,0.7);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 body {
-  font-family: "Roboto Condensed", sans-serif !important;
+  font-family: "Roboto Condensed" !important;
 }
 
 /***************** NAVBAR ******************/
@@ -103,8 +103,8 @@ nav ul li {
   }
 }
 
-/*-------HEADER MAIN OFFER BUTTON--------*/
-.btn-main-offer {
+/*-------HEADER MAIN INFO BUTTON--------*/
+.btn-main-info {
   border: 1px solid var(--primary-yellow);
   text-transform: uppercase;
   background-color:rgb(14, 103, 186); opacity: 90%;
@@ -117,7 +117,7 @@ nav ul li {
   margin: 6rem; 
 }
 
-.btn-main-offer:hover {
+.btn-main-info:hover {
   text-decoration: none;
   background-color: var(--primary-hover-yellow);
   color: var(--primary-white);
@@ -300,7 +300,7 @@ nav ul li {
 
 .experience h1 {
   text-transform:uppercase;
-  color: var(--primary-orange);
+  color: var(--primary-yellow);
 }
 
 .experience-wrapper::before {
@@ -397,7 +397,7 @@ nav ul li {
 }
 
 .portfolio-wrapper h1{
-  color: var(--primary-yellow);
+  color: var(--primary-transparent-black);
  }
 
 .portfolio-image {
@@ -603,7 +603,7 @@ nav ul li {
 }
 
 .contact h1 {
-  color: var(--primary-orange);
+  color: var(--primary-yellow);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
@@ -618,7 +618,7 @@ nav ul li {
   width: 100%;
   box-sizing: border-box;
   background: none;
-  color: var(--primary-orange);
+  color: var(--primary-yellow);
   resize: none;
   border: 0;
   border-bottom: 0.125rem solid var(--primary-white);
@@ -635,7 +635,7 @@ nav ul li {
 
 .contact input:focus, .contact textarea:focus {
   background: transparent;
-  color: var(--primary-orange);
+  color: var(--primary-yellow);
   border-bottom: 0.125rem solid var(--primary-white);
 }
 
@@ -651,9 +651,9 @@ nav ul li {
   border-color: var(--primary-red) !important;
 }
 .btn-primary:hover {
-  background-color: var(--primary-red) !important;
+  background-color: var(--primary-yellow) !important;
   color: var(--primary-white) !important;
-  border-color: var(--primary-red) !important;
+  border-color: var(--primary-yellow) !important;
 }
 
 .line {

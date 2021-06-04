@@ -11,7 +11,7 @@ function Contact(){
     const templateID = "template_ID";
     const userID = "user_6DEGhl4tKlbhvoVlmgp8J";
 
-    function onSubmit (data,r) {
+    function onSubmit (data, r) {
         sendEmail(
             serviceID,
             templateID,
@@ -28,7 +28,7 @@ function Contact(){
     }
 
 
-    function sendEmail(serviceID,templateID , variables, userID) {
+    function sendEmail(serviceID, templateID ,variables, userID) {
        
     
         emailjs.send(serviceID, templateID, variables, userID)
@@ -39,9 +39,9 @@ function Contact(){
       }
     
     return(
-        <div id = "contact" className= "contact">
+        <div id="contact" className="contact">
             <div className = "text-center">
-                <h1> Contact Me</h1>
+                <h1>Contact Me</h1>
                 <p>Please provide your details below</p>
                 <span className = "success-message">{successMessage}</span>
             </div>
@@ -56,19 +56,7 @@ function Contact(){
                                     className = "form-control"
                                     placeholder = "Name"
                                     name = "name"
-                                    {...register('name', {
-                                        max: {
-                                            value: 25,
-                                            message: 'please enter name w fewer than 25 characters'
-                                        }
-                                    })}
-                                    // {...register({
-                                    //             required: "Please enter your name",
-                                    //             maxLength: {
-                                    //                 value: 25,
-                                    //                 message: "Please enter a name with fewer than 25 characters"
-                                    //             }})}
-                                    // ref = {
+                                    {...register("name")}
                                     //     register({
                                     //         required: "Please enter your name",
                                     //         maxLength: {
@@ -77,7 +65,7 @@ function Contact(){
                                     //         }
                                     //     })
                                     // }
-                                    />
+                                />
                                 <div className = "line"></div>
                                     </div>
                                     <span className = "error-messages">
@@ -91,16 +79,14 @@ function Contact(){
                                     className = "form-control"
                                     placeholder = "Email"
                                     name = "email"
-                                    {...register('value_name')}
-                                    // ref = {
-                                    //     register({
-                                    //         required: "Please add your email",
-                                    //         pattern: {
-                                    //             value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                    //             message: "invalid email"
-                                    //         }
-                                    //     })
-                                    // }
+                                    // {...register('value_name')}
+                                    {...register("email", {
+                                        required: "Please add your email",
+                                            pattern: {
+                                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                                message: "invalid email"
+                                            }
+                                    })}
                                     />
                                 <div className = "line"></div>
                                     </div>
@@ -114,6 +100,7 @@ function Contact(){
                                         className = "form-control"
                                         placeholder = "Phone Number"
                                         name = "phone"
+                                        {...register("phone")}
                                     />
                                     <div className = "line"></div>
                                 </div>
@@ -125,7 +112,7 @@ function Contact(){
                                         className = "form-control"
                                         placeholder = "Subject"
                                         name = "subject"
-                                        {...register('value_name')}
+                                        {...register("subject")}
                                         // ref = {
                                         //     register({
                                         //         required: "Please provide a subject"
@@ -147,7 +134,7 @@ function Contact(){
                                         className = "form-control"
                                         placeholder = "Message"
                                         name = "message" 
-                                        {...register('value_name')}
+                                        {...register("message")}
                                         // ref = {
                                         //     register({
                                         //         required: "Please provide what this is in regards to"
