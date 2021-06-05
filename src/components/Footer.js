@@ -69,14 +69,6 @@ const Footer = () => {
                         >
                             <LinkedinIcon className="mx-3" size={36}/>
                         </LinkedinShareButton> */}
-                            <div className="contact-facebook">
-                                 <SocialIcon target="_blank" url="https://www.facebook.com/ben.morgancleveland"  bgColor="white"/>
-                                 <a className="linkedin-a" href="https://www.facebook.com/ben.morgancleveland" target="_blank"></a>
-                            </div>
-                            <div className="contact-twitter">
-                                 <SocialIcon target="_blank" url="https://twitter.com/Cupcup_Island"  bgColor="white"/>
-                                 <a className="linkedin-a" href="https://twitter.com/Cupcup_Island" target="_blank"></a>
-                            </div>
                             <div className="contact-linkedin">
                                  <SocialIcon target="_blank" url="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" bgColor="white"/>
                                  <a className="linkedin-a" href="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" target="_blank"></a>
@@ -84,6 +76,14 @@ const Footer = () => {
                             <div className="contact-github">
                                  <SocialIcon target="_blank" url="https://github.com/BMoClay" bgColor="white"/>
                                  <a className="linkedin-a" href="https://github.com/BMoClay" target="_blank"></a>
+                            </div>
+                            <div className="contact-facebook">
+                                 <SocialIcon target="_blank" url="https://www.facebook.com/ben.morgancleveland"  bgColor="white"/>
+                                 <a className="linkedin-a" href="https://www.facebook.com/ben.morgancleveland" target="_blank"></a>
+                            </div>
+                            <div className="contact-twitter">
+                                 <SocialIcon target="_blank" url="https://twitter.com/Cupcup_Island"  bgColor="white"/>
+                                 <a className="linkedin-a" href="https://twitter.com/Cupcup_Island" target="_blank"></a>
                             </div>
                         </div>
                         <p className="pt-3 text-center">

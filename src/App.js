@@ -31,7 +31,7 @@ function App() {
               type: "circle",
               stroke: {
                 width: 6,
-                color: "#f9ab00"
+                color: "cbf900"
               }
             }
           }
