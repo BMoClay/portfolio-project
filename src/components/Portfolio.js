@@ -14,7 +14,7 @@ const Portfolio = () => {
         const content = (
             <>
                 <img classname="portfolio-image-popupbox" src={iSherpaPic} alt="iSherpa Project"/>
-                <p>iSherpa is very good. Its a place to share guides on any subject</p>
+                <p>iSherpa is a place to share guides on any subject</p>
                 <b>Demo:</b> 
                 <a className="hyper-link" 
                     onClick={() => window.open("https://www.loom.com/share/eb6908fc437b4560b158e1d425a24396", "_blank")}>
