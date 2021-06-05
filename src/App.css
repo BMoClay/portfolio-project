@@ -88,6 +88,11 @@ nav ul li {
   text-transform: uppercase;
 }
 
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+}
 /*-----TYPED TEXT ------*/
 .typed-text {
     font-size: 2em;
@@ -107,7 +112,7 @@ nav ul li {
 .btn-main-info {
   border: 1px solid var(--primary-yellow);
   text-transform: uppercase;
-  background-color:rgb(14, 103, 186); opacity: 90%;
+  background-color:rgb(14, 103, 186); opacity: 95%;
   /* font-size: .875em; */
   font-size: 1em;
   border-radius: 1;
@@ -119,7 +124,7 @@ nav ul li {
 
 .btn-main-info:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-yellow);
+  background-color: var(--primary-dark-grey);
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
