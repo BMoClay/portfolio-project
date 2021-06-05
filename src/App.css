@@ -718,10 +718,16 @@ textarea.form-control{
 
  .footer a:hover{
   text-decoration: none;
-  color: var(--primary-orange);
-  cursor: pointer;
+  color: var(--primary-hover-yellow);
+  /* background-color: var(--primary-hover-yellow); */
+  /* cursor: pointer; */
  }
 
  .footer p {
    margin-bottom: 0;
  }
+/* 
+ .footer g {
+  background-color: var(--primary-yellow) !important;
+  color: var(--primary-hover-yellow) !important;
+ } */
