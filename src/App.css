@@ -334,8 +334,8 @@ nav ul li {
   width: 1rem;
   height: 1rem;
   border-radius:50%;
-  border: 0.3125rem solid var(--primary-dark-gray);
-  background: var(--primary-orange);
+  border: 0.3125rem solid var(--primary-dark-grey);
+  background: var(--primary-teal);
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -349,7 +349,7 @@ nav ul li {
 
 .timeline-content h3{
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: var(--primary-teal);
 }
 
 /* ***************** EXPERIENCE MEDIA ***************************  */
