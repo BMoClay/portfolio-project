@@ -1,15 +1,15 @@
 import React from 'react';
-import {
-    FacebookShareButton,
-    FacebookIcon,
-    TwitterShareButton,
-    TwitterIcon,
-    LinkedinShareButton,
-    LinkedinIcon,
-    // GithubShareButton,
-    // GithubButton
-    // GithubIcon,
-} from "react-share";
+// import {
+//     FacebookShareButton,
+//     FacebookIcon,
+//     TwitterShareButton,
+//     TwitterIcon,
+//     LinkedinShareButton,
+//     LinkedinIcon,
+//     GithubShareButton,
+//     GithubButton
+//     GithubIcon,
+// } from "react-share";
 import {SocialIcon} from 'react-social-icons'
 
 const Footer = () => {
