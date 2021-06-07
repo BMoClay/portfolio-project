@@ -109,7 +109,8 @@ nav ul li {
   border: 0.0625rem solid var(--primary-yellow);
   text-transform: uppercase;
   color:var(--primary-yellow);
-  background-color:rgb(14, 103, 186); opacity: 90%;
+  background-color:rgb(14, 103, 186); 
+  opacity: 90%;
   font-size: 1em;
   border-radius: 1;
   padding: .75rem .75rem .75rem .75rem;
