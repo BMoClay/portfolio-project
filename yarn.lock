@@ -9582,6 +9582,13 @@
   "resolved" "https://registry.npmjs.org/react-simple-animate/-/react-simple-animate-3.3.12.tgz"
   "version" "3.3.12"
 
+"react-social-icons@^5.4.1":
+  "integrity" "sha512-pnPU8UmFQaK2MRITzU7Y80a068z40H5LFQSoBU8wWWu6cxJDnm8XuuEEpdrTiPCPEVTYnGvwSLbuHO5jB151dA=="
+  "resolved" "https://registry.npmjs.org/react-social-icons/-/react-social-icons-5.4.1.tgz"
+  "version" "5.4.1"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "react-typed@^1.2.0":
   "integrity" "sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw=="
   "resolved" "https://registry.npmjs.org/react-typed/-/react-typed-1.2.0.tgz"
@@ -9590,7 +9597,7 @@
     "prop-types" "^15.6.0"
     "typed.js" "^2.0.6"
 
-"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17", "react@^16.8.0 || ^17", "react@^17.0.2", "react@>=16.8.0", "react@>=17.0.2":
+"react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.3.0 || ^17", "react@^16.8.0 || ^17", "react@^17.0.2", "react@>=16.8.0", "react@>=17.0.2", "react@15.x.x || 16.x.x || 17.x.x":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
