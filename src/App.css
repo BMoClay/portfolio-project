@@ -719,8 +719,7 @@ textarea.form-control{
  .footer a:hover{
   text-decoration: none;
   color: var(--primary-hover-yellow);
-  /* background-color: var(--primary-hover-yellow); */
-  /* cursor: pointer; */
+  cursor: pointer;
  }
 
  .footer p {
