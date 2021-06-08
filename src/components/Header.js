@@ -17,7 +17,7 @@ const Header = () => {
                     loop
                 />
                 {/* <a href="#" className="btn-main-info">contact me</a> */}
-                <Link className='btn-main-info' smooth={true} to="contact" href="#">Contact Me</Link>
+                <Link smooth={true} to='contact' className='btn-main-offer'>Contact Me</Link>
           </div>
       </div>
     )

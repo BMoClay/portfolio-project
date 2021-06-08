@@ -105,18 +105,19 @@ nav ul li {
 }
 
 /*-------HEADER MAIN INFO BUTTON--------*/
-.btn-main-info {
+.btn-main-offer {
   border: 0.0625rem solid var(--primary-yellow);
   text-transform: uppercase;
+  border-radius: 1;
+  padding: .75rem .75rem .75rem .75rem;
   color:var(--primary-yellow);
   background-color:rgb(14, 103, 186); opacity: 90%;
   font-size: 1em;
-  border-radius: 1;
-  padding: .75rem .75rem .75rem .75rem;
+  cursor: pointer;
   margin: 6rem; 
 }
 
-.btn-main-info:hover {
+.btn-main-offer:hover {
   text-decoration: none;
   background-color: var(--primary-dark-grey);
   color: var(--primary-white);
