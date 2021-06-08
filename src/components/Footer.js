@@ -22,24 +22,18 @@ const Footer = () => {
                     <div className="row">
                         <div className="col">
                             <Link smooth={true} to="home" offset={-110} className="footer-nav" href="#">Home</Link>
-                            {/* <a className="footer-nav">Home</a> */}
                             <br />
                             <Link smooth={true} to="about" offset={-110} className="footer-nav" href="#">About me</Link>
-                            {/* <a className="footer-nav">About me</a> */}
                             <br />
                             <Link smooth={true} to="services" offset={-110} className="footer-nav" href="#">Services</Link>
-                            {/* <a className="footer-nav">Services</a> */}
-                        </div>
+                            </div>
                         <div className="col">
                             <Link smooth={true} to="experience" offset={-110} className="footer-nav" href="#">Experience</Link>
-                            {/* <a className="footer-nav">Experience</a> */}
                             <br />
                             <Link smooth={true} to="portfolio" offset={-110} className="footer-nav" href="#">Portfolio</Link>
-                            {/* <a className="footer-nav">Portfolio</a> */}
                             <br />
                             <Link smooth={true} to="contact" offset={-110} className="footer-nav" href="#">Contact</Link>
-                            {/* <a className="footer-nav">Contacts</a> */}
-                        </div>
+                            </div>
                     </div>
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
