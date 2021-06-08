@@ -2,7 +2,7 @@ import React from 'react';
 import iSherpaPic from '../project_images/iSherpa_screenshot.png';
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas, faSearchPlus } from '@fortawesome/free-solid-svg-icons';
+import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import "react-popupbox/dist/react-popupbox.css"

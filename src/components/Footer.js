@@ -44,20 +44,20 @@ const Footer = () => {
                 <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
                     <div className="d-flex justify-content-center">
                             <div className="contact-linkedin">
-                                 <SocialIcon target="_blank" url="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" bgColor="white"/>
-                                 <a className="linkedin-a" href="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" target="_blank"></a>
+                                 <SocialIcon target="_blank" rel="noreferrer" url="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" bgColor="white"/>
+                                 <a className="linkedin-a" alt="linkedin link" rel="noreferrer" href="https://www.linkedin.com/in/ben-morgan-cleveland-93b48713/" target="_blank"></a>
                             </div>
                             <div className="contact-github">
                                  <SocialIcon target="_blank" url="https://github.com/BMoClay" bgColor="white"/>
-                                 <a className="linkedin-a" href="https://github.com/BMoClay" target="_blank"></a>
+                                 <a className="linkedin-a" rel="noreferrer" href="https://github.com/BMoClay" target="_blank"></a>
                             </div>
                             <div className="contact-facebook">
                                  <SocialIcon target="_blank" url="https://www.facebook.com/ben.morgancleveland"  bgColor="white"/>
-                                 <a className="linkedin-a" href="https://www.facebook.com/ben.morgancleveland" target="_blank"></a>
+                                 <a className="linkedin-a" rel="noreferrer" href="https://www.facebook.com/ben.morgancleveland" target="_blank"></a>
                             </div>
                             <div className="contact-twitter">
                                  <SocialIcon target="_blank" url="https://twitter.com/Cupcup_Island"  bgColor="white"/>
-                                 <a className="linkedin-a" href="https://twitter.com/Cupcup_Island" target="_blank"></a>
+                                 <a className="linkedin-a" rel="noreferrer" href="https://twitter.com/Cupcup_Island" target="_blank"></a>
                             </div>
                         </div>
                         <p className="pt-3 text-center">
