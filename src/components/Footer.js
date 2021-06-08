@@ -61,11 +61,11 @@ const Footer = () => {
                                  <a className="linkedin-a" rel="noreferrer" href="https://twitter.com/Cupcup_Island" target="_blank"></a>
                             </div>
                         </div>
-                        <p className="pt-3 text-center">
+                        {/* <p className="pt-3 text-center">
                             Copyright&copy;
                             {new Date().getFullYear()}&nbsp;Ben Morgan-Cleveland | All Rights Reserved
 
-                        </p>
+                        </p> */}
                     </div>
                 </div>
             </div>
