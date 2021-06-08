@@ -113,7 +113,7 @@ nav ul li {
   padding: .75rem .75rem .75rem .75rem;
   color:var(--primary-yellow);
   background-color:var(--primary-blue); 
-  opacity: 90%;
+  opacity: .9;
   font-size: 1em;
   cursor: pointer;
   margin: 6rem; 
