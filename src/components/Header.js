@@ -11,7 +11,7 @@ const Header = () => {
                 <h1>Full Stack Web Developer</h1>
                 <Typed
                     className='typed-text'
-                    strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresQL', 'Firebase', 'Git']}
+                    strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresSQL', 'Firebase', 'Git']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
