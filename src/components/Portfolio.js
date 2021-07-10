@@ -1,6 +1,7 @@
 import React from 'react';
 import iSherpaPic from '../project_images/iSherpa_screenshot.png';
 import RaregifsPic from '../project_images/screengrab_raregifs.png';
+import SnackAttackPic from '../project_images/snackattack.png';
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
@@ -70,6 +71,33 @@ const Portfolio = () => {
         fadeInSpeed: 500
     }
 
+    const openPopupboxSnackAttack = () => {
+        const content = (
+            <>
+                <img classname="portfolio-image-popupbox" src={SnackAttackPic} alt="SnackAttack Project"/>
+                <p>Snack Attack is an app that lets users discover new snacks</p>
+                <b>Demo:</b> 
+                <a className="hyper-link" 
+                    onClick={() => window.open("https://www.loom.com/share/1ea233dec08242009e4075ae9280baad", "_blank")}>
+                    https://www.loom.com/share/1ea233dec08242009e4075ae9280baad</a>
+                <br></br>
+                <b>Github:</b> 
+                <a className="hyper-link" 
+                    onClick={() => window.open("https://github.com/BMoClay/snack4")}>
+                        https://github.com/BMoClay/snack4</a>
+            </>
+        )
+        PopupboxManager.open({content})
+    }
+
+    const popupboxConfigSnackAttack = {
+        titleBar: {
+            enable: true,
+            text: "Snack Attack project"
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
 
 
 
@@ -88,10 +116,16 @@ const Portfolio = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
+                    <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
+                        <img className="portfolio-image" src={SnackAttackPic} alt="Snack Attack Project"/>
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                    </div>
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigiSherpa} />
             <PopupboxContainer {...popupboxConfigRaregifs} />
+            <PopupboxContainer {...popupboxConfigSnackAttack} />
         </div>
     )
 }
