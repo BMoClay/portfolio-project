@@ -1,40 +1,65 @@
 import React from 'react';
-import iSherpaPic from '../project_images/iSherpa_screenshot.png';
-import RaregifsPic from '../project_images/screengrab_raregifs.png';
-import SnackAttackPic from '../project_images/snackattack.png';
+// import iSherpaPic from '../project_images/iSherpa_screenshot.png';
+import iSherpaPic from '../project_images/isherpa-5.png';
+import RaregifsPic from '../project_images/raregifs-5.png';
+import SnackAttackPic from '../project_images/snackattack-5.png';
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
+import { faSearchPlus, faLaptopCode, faPlayCircle} from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
-import "react-popupbox/dist/react-popupbox.css"
+import "react-popupbox/dist/react-popupbox.css";
 
 const Portfolio = () => {
 
     //iSherpa
     const openPopupboxiSherpa = () => {
         const content = (
-            <>
-                <img classname="portfolio-image-popupbox" src={iSherpaPic} alt="iSherpa Project"/>
+            // <>
+            <div>
                 <p>iSherpa is a place to share guides on any subject</p>
-                <b>Demo:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://www.loom.com/share/eb6908fc437b4560b158e1d425a24396", "_blank")}>
-                    https://www.loom.com/share/eb6908fc437b4560b158e1d425a24396</a>
-                <br></br>
-                <b>Github:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://github.com/BMoClay/i-sherpa-backend")}>
-                        https://github.com/BMoClay/i-sherpa-backend</a>
-            </>
+                <div className="popup-icons">
+                    {/* <div className="hyper-link" onClick={() => window.open("https://rocket-fuel.netlify.app/", "_blank")}>
+                        <div className="popup-links">
+                        <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
+                        Website
+                        </div>
+                    </div> */}
+                    <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/eb6908fc437b4560b158e1d425a24396", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
+                            Demo
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/i-sherpa-frontend", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/i-sherpa-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
+                <img 
+                    classname="portfolio-image-popupbox" 
+                    src={iSherpaPic} 
+                    alt="iSherpa Project"
+                />
+            </div>
+           // </>
         )
         PopupboxManager.open({content})
     }
 
     const popupboxConfigiSherpa = {
         titleBar: {
-            enable: true,
-            text: "iSherpa project"
+            enable: false,
+            text: "iSherpa"
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -47,7 +72,7 @@ const Portfolio = () => {
         const content = (
             <>
                 <img classname="portfolio-image-popupbox" src={RaregifsPic} alt="Raregifs Project"/>
-                <p>Raregifs is a place to create and share animated digital sketches</p>
+                <p>Raregifs is a place to create and share your own animated digital sketches</p>
                 <b>Demo:</b> 
                 <a className="hyper-link" 
                     onClick={() => window.open("https://www.loom.com/share/5a55e35216e54a198e4cf083a35c739c", "_blank")}>
@@ -93,7 +118,7 @@ const Portfolio = () => {
     const popupboxConfigSnackAttack = {
         titleBar: {
             enable: true,
-            text: "Snack Attack project"
+            text: "Snack Attack"
         },
         fadeIn: true,
         fadeInSpeed: 500

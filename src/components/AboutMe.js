@@ -13,7 +13,7 @@ const AboutMe = () => {
                <div className="col-lg-6 col-xm-12">
                 <h1 className="about-heading">about me</h1>
                     <p>
-                        Full stack web developer. 
+                        I'm a Full stack web developer based in New York. 
                         Experienced in Ruby on Rails and 
                         JavaScript based programming with 
                         a background in small business ownership.
@@ -21,9 +21,10 @@ const AboutMe = () => {
                         Possess exceptional skills in communication,
                         team-building and project management that 
                         helped deliver sales and press at New York
-                        art gallery. Outstanding team player 
+                        art gallery. 
+                        {/* Outstanding team player 
                         focused on achieving project objectives. Eager to enhance 
-                        a company or individual's user experience.
+                        a company or individual's user experience. */}
                     </p>
                 </div>
             </div>

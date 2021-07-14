@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -40,9 +41,9 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutMe/>
+      <Portfolio/>
       <Services/>
       <Experience/>
-      <Portfolio/>
       {/* <Testimonials/> */}
       <Contact/>
       <Footer/>

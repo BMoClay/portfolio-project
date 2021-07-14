@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 :root {
   --primary-white: #fff;
   --primary-light-grey: #f4f4f4;
@@ -12,8 +14,6 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 body {
   font-family: "Roboto Condensed" !important;
@@ -393,19 +393,58 @@ nav ul li {
   }
 } */
 /*------------ PORTFOLIO --------------*/
+div#portfolio{
+  padding-top: 2rem;
+}
 .portfolio-wrapper {
   background: var(--primary-light-grey);
-  padding: 3rem 0;
+  position: relative;
+  padding: 6rem;
+}
+
+@media(min-width: 768px){
+  .portfolio-wrapper{
+    padding: 0rem 0;
+    padding-bottom: 0rem;
+  }
+ }
+
+.popupbox-content{
+  text-align: center;
 }
 
 .portfolio-wrapper h1{
   color: var(--primary-transparent-black);
- }
+  margin-bottom: 0 !important;
+  font-size: 2.8rem !important;
+}
 
-.portfolio-image {
+.portfolio-wrapper h3 {
+  color: var(--primary-transparent-black);
+  margin-bottom: 0 !important;
+  font-size: 2rem !important;
+}
+
+.portfolio-wrapper .py-5 {
+  padding: 1.5rem!important;
+}
+
+#portfolio-overlap {
+  margin-left: -353px;
+  color: var(--primary-transparent-black);
+}
+
+/* .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-hover-yellow);
   padding: 0 0.5rem;
+} */
+
+.portfolio-image{
+  width: 14.5rem;
+  height: 8.8rem;
+  border: 1px solid var(--primary-hover-yellow);
+  padding: 0;
 }
 
 .portfolio-image-box {
@@ -413,13 +452,13 @@ nav ul li {
   margin: 1rem;
 }
 
-/***************** Overflow ******************/
+/***************** Overflow Box ******************/
 .overflow {
   position: absolute;
   opacity: 0;
   background: var(--primary-black);
-  width: 15rem;
-  height: 8rem;
+  width: 14.5rem;
+  height: 8.8rem;
   top: 0;
   border: 1px solid var(--primary-yellow);
   cursor: pointer;
@@ -429,6 +468,10 @@ nav ul li {
   opacity: .6;
   transition: 0.3s ease-in-out;
 }
+
+.portfolio-image-box:hover .portfolio-image {
+  border: 1px solid var(--primary-dark-grey);
+ }
 
 .portfolio-icon {
   position: absolute;
@@ -442,26 +485,178 @@ nav ul li {
 .portfolio-image-box:hover .portfolio-icon {
   opacity: .7;
   transition: 0.3s ease-in-out;
+  color: var(--primary-yellow);
   cursor: pointer;
 }
 
-.popupbox-wrapper {
-  margin-top: 7rem;
+@media(min-width: 780px){
+  .portfolio-wrapper h1{
+    font-size: 3.2rem
+  }
+  #portfolio-overlap{
+    margin-left: -452px;
+  }
 }
-/***************** Overflow Box ******************/
+
+@media(max-width: 480px){
+  .portfolio-wrapper h1{
+    font-size: 1.8rem
+  }
+  #portfolio-overlap{
+      margin-left: -255px;
+  }
+ }
+
+ /***************** Popup ******************/
+ .popupbox-wrapper {
+   margin-top: 4rem;
+ }
+
+.popupbox-titleBar{
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  background-color: var(--primary-light-grey);
+  color: var(--primary-blue);
+}
+
+.popupbox-btn--close{
+  top: 4px !important;
+}
+
+.popupbox-content{
+  padding: .6rem 1rem !important;
+  background-color: var(--primary-dark-grey);
+}
+
 .portfolio-image-popupbox {
   width: 45rem;
-  padding: 0 0.5rem;
+  padding: 0.5rem;
+  border: .025rem solid var(--primary-teal);
+  border-radius: .25rem;
 }
+
+.popupbox-titleBar span{
+  font-weight: 580;
+  font-size: 1.5rem;
+}
+
+.popupbox p{
+  color: var(--primary-grey);
+  margin: .5rem;
+}
+
+.popup-desc{
+  font-size: .88rem;
+  width: 45rem;
+  margin: .25rem 0;
+  margin-bottom: .3rem;
+}
+
 
 .hyper-link {
   cursor: pointer;
-  color: var(--primary-yellow)
+  color: var(--primary-yellow);
+  margin: 0 1rem;
+  font-size: 1rem;
 }
 
 .hyper-link:hover {
-  color: var(--primary-dark)
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: var(--primary-dark);
 }
+
+.popup-icon:hover{
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: var(--primary-hover-yellow);
+}
+
+.popup-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.popup-icon {
+  margin-right: .25rem;
+  color: var(--dark-mode-green);
+}
+
+.popup-links span{
+  line-height: 80%;
+}
+
+/**** WIDTH ****/
+
+@media(max-width: 1050px){
+
+  .portfolio-image-popupbox{
+    width: 90%;
+  }
+
+  .popup-desc{
+    width: 100%;
+    font-size: .75rem;
+  }
+}
+
+@media(max-width: 768px){
+
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+
+  .popup-desc{
+    font-size: .61rem;
+    width: 100%;
+    margin: .25rem 0;
+  }
+
+  .popup-links{
+    font-size: .8rem;
+  }
+}
+
+@media(max-width: 550px){
+  .popup-links{
+    font-size: .7rem;
+  }
+
+}
+
+
+/**** HEIGHT ****/
+
+@media(max-height: 640px){
+  .popupbox-wrapper{
+    width: 60%;
+  }
+
+  .popupbox-content{
+    text-align: center;
+  }
+
+
+  .portfolio-image-popupbox{
+    width: 60%;
+  }
+
+  .popup-desc {
+   width: auto;
+  }
+
+  .popup-links{
+    font-size: .7rem;
+  }
+}
+
+@media(max-height: 570px){
+
+  .portfolio-image-popupbox{
+    width: 40%;
+  }
+}
+
 
 /***************** MEDIA POP UP BOX ******************/ 
 
@@ -470,15 +665,15 @@ nav ul li {
     width: 100%;
   }
   .popup-desc{
-  width: 100%;
-  font-size: .7rem;
+    width: 100%;
+    font-size: .7rem;
   }
   .hyper-link{
     width: 60%;
     font-size: .6rem;
   }
   .link-desc{
-  font-size: .8rem;
+   font-size: .8rem;
   }
  }
 

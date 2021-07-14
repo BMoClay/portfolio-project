@@ -96,7 +96,7 @@ const Experience = () => {
                     </div>
                 </div>
                 {/* - */}
-                <div className="timeline-block timeline-block-right">
+                {/* <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h2>Casey Kaplan Gallery</h2>
@@ -108,9 +108,9 @@ const Experience = () => {
                             for Art Basel Miami. 
                         </p>
                     </div>
-                </div>
+                </div> */}
                 {/* - */}
-                <div className="timeline-block timeline-block-left">
+                {/* <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h2>Atelier 4</h2>
@@ -122,12 +122,12 @@ const Experience = () => {
                             of art history, relationships with artists, and installation know-how.
                         </p>
                     </div>
-                </div>
+                </div> */}
                  {/* - */}
                  <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h2>Maccarone Gallery</h2>
+                        <h2>Maccarone</h2>
                         <h3>Project Manager</h3>
                         <h4>2006-2008</h4>
                         <p>Learned what it took to run an avant-garde gallery from Michele Maccarone. Was given 
