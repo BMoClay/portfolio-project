@@ -14,6 +14,7 @@ const AboutMe = () => {
                     </div>
                     <div className="col-lg-6 col-xm-12">
                         <h1 className="about-heading">about me</h1>
+                        <br></br>
                             <p>
                                 I'm a Full stack web developer based in New York
                                 with experience in Ruby on Rails and 

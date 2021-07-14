@@ -162,6 +162,7 @@ nav ul li {
   border: 1px solid var(--primary-yellow);
 }
 .p-about {
+  /* padding-top: 2rem; */
   color: var(--primary-dark-grey)
 }
 .about-heading {
@@ -180,11 +181,11 @@ nav ul li {
   padding-top: 1rem;
 }
 
-.portfolio-wrapper {
-  /* background: var(--primary-light-grey); */
+/* .portfolio-wrapper {
   position: relative;
   padding: 4rem;
-}
+} */
+
 .services-wrapper {
   /* position: center;
   align-items: center; */
@@ -197,6 +198,7 @@ nav ul li {
 .services-wrapper h1 {
   color: var(--primary-yellow);
   text-transform: uppercase;
+  font-size: 2.8rem !important;
 } 
 
 .services-wrapper .circle {
@@ -227,7 +229,7 @@ nav ul li {
  
   /* width: 25rem; */
   align-items: space-between; 
-  border-bottom: 0.3125rem solid var(--primary-blue);
+  border-bottom: 0.3125rem solid var(--primary-teal);
   padding-top: 1rem;
   padding-right: 1rem;
   padding-left: 1rem;
@@ -238,20 +240,25 @@ nav ul li {
   transition: 0.3s ease-in-out;
 }
 
-/* .services-wrapper .box:hover {
-  border-bottom: var(--primary-teal);
+/* .services-wrapper .row:hover {
+  border-bottom: var(--primary-blue);
 } */
 
 .services-wrapper .box:hover .icon {
   color: var(--primary-blue);
 }
 
-/* .services-wrapper .box:hover .circle {
-  color: var(--primary-yellow);
+/* .services-wrapper .circle:hover {
+  border-bottom: var(--primary-blue);
 } */
+.services-wrapper .box:hover h3 {
+  color: var(--primary-blue);
+  border-bottom: var(--primary-blue);
+}
 
 .services-wrapper .box:hover p {
   color: var(--primary-black);
+  border-bottom: var(--primary-blue);
 }
 /*------------ EXPERIENCE --------------*/
 /* 
