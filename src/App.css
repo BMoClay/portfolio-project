@@ -219,6 +219,15 @@ nav ul li {
   transform: translate(-50%, -50%);
 }
 
+.services-wrapper .badge {
+  font-size: 1.4rem;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .services-wrapper .row{
   float: none;
   margin: auto;

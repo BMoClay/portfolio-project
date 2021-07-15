@@ -16,13 +16,16 @@ const AboutMe = () => {
                         <h1 className="about-heading">about me</h1>
                         <br></br>
                             <p>
-                                I'm a Full stack web developer based in New York
-                                with experience in Ruby on Rails and 
-                                JavaScript based programming such as React. My projects incorporate front-end and back-end development with robust user interfaces that use efficient code to solve real world problems. 
-                                I'm an open minded, innovative thinker with a
-                                background in fine arts and small business ownership. My other skills 
+                                I'm a Full stack web developer living in Brooklyn
+                                with experience building applications with Ruby on Rails and 
+                                JavaScript based programming such as React. My projects incorporate 
+                                front-end and back-end development with robust user 
+                                interfaces that use efficient code to solve real world problems. An 
+                                open minded, innovative thinker with a
+                                background in fine arts and small business ownership, I bring with me a broad spectrum of experience. 
+                                {/* My other skills 
                                 include project managment, team building, debugging and
-                                code optimization.
+                                code optimization. */}
                             </p>
                     </div>
                 </div>

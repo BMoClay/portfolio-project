@@ -2,15 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
-import javascript from '../javascript_badge.jpg'
+
 const Services = () => {
     return (
         <div id="services" className="services-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">services</h1>
-                    <div className="badge-area">
-                        <img className="badge"  src={javascript} alt="Javascript badge"/>      
-                    </div>
                     <div className="container">
                         <div className="row" >
                             <div className="col-lg-6 col-md-6 col-sm-6" >

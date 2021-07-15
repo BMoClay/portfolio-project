@@ -8,10 +8,11 @@ const Header = () => {
       <div id="home" className='header-wrapper'>
           <div className="main-info">
                 {/* <h1>Ben Morgan-Cleveland</h1> */}
-                <h1>Full Stack Web Developer</h1>
+                <h1>Software Engineer</h1>
                 <Typed
                     className='typed-text'
-                    strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresSQL', 'Firebase', 'Git']}
+                    // strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresSQL', 'Firebase', 'Git']}
+                    strings={['React', 'Rails', 'Javascript', 'PostgresSQL', 'Github']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
