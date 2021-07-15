@@ -37,7 +37,6 @@ const Portfolio = () => {
                     />
                 </div>
                 <div className="popup-icons">
-                {/* <p>Github Repository</p> */}
                 <h6>iSherpa is guide sharing community. Write guides in any subject and get tokens.</h6>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/i-sherpa-frontend", "_blank")}>
                         <div className="popup-links">
@@ -182,9 +181,9 @@ const Portfolio = () => {
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxiSherpa}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/eb6908fc437b4560b158e1d425a24396-with-play.gif" alt="iSherpa Project"/>
-                        <h4>iSherpa</h4>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        <h4>iSherpa</h4>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxRaregifs}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/5a55e35216e54a198e4cf083a35c739c-with-play.gif" alt="Raregifs Project"/>
