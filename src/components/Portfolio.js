@@ -16,22 +16,29 @@ const Portfolio = () => {
     //iSherpa
     const openPopupboxiSherpa = () => {
         const content = (
-            // <>
             <div>
-                <p>iSherpa is a place to share guides on any subject</p>
+                <div 
+                    className="video-responsive" 
+                    // style={{
+                    //         left: 0,
+                    //         top: 0,
+                    //         // height= 100%
+                    //         // width= 100%
+                    //         position: absolute,
+                    //  }}
+                >
+                    <iframe src="https://www.loom.com/embed/eb6908fc437b4560b158e1d425a24396"
+                        frameborder='0'
+                        allow='autoplay; encrypted-media'
+                        width="1000"
+                        height="560"
+                        allowfullscreen="true"
+                        title='video'
+                    />
+                </div>
                 <div className="popup-icons">
-                    {/* <div className="hyper-link" onClick={() => window.open("https://rocket-fuel.netlify.app/", "_blank")}>
-                        <div className="popup-links">
-                        <FontAwesomeIcon className="popup-icon" icon={faLaptopCode} />
-                        Website
-                        </div>
-                    </div> */}
-                    <div className="hyper-link" onClick={() => window.open("https://www.loom.com/share/eb6908fc437b4560b158e1d425a24396", "_blank")}>
-                        <div className="popup-links">
-                            <FontAwesomeIcon className="popup-icon" icon={faPlayCircle} />
-                            Demo
-                        </div>
-                    </div>
+                {/* <p>Github Repository</p> */}
+                <h6>iSherpa is guide sharing community. Write guides in any subject and get tokens.</h6>
                     <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/i-sherpa-frontend", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
@@ -45,86 +52,128 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <img 
-                    classname="portfolio-image-popupbox" 
-                    src={iSherpaPic} 
-                    alt="iSherpa Project"
-                />
             </div>
-           // </>
         )
-        PopupboxManager.open({content})
+        
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "iSherpa (2 minute walk-through)"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
-
-    const popupboxConfigiSherpa = {
-        titleBar: {
-            enable: false,
-            text: "iSherpa"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
-
     
-
 
     const openPopupboxRaregifs = () => {
         const content = (
-            <>
-                <img classname="portfolio-image-popupbox" src={RaregifsPic} alt="Raregifs Project"/>
-                <p>Raregifs is a place to create and share your own animated digital sketches</p>
-                <b>Demo:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://www.loom.com/share/5a55e35216e54a198e4cf083a35c739c", "_blank")}>
-                    https://www.loom.com/share/5a55e35216e54a198e4cf083a35c739c</a>
-                <br></br>
-                <b>Github:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://github.com/BMoClay/Raregifs-front-end")}>
-                        https://github.com/BMoClay/Raregifs-front-end</a>
-            </>
+            <div>
+                <div 
+                    className="video-responsive" 
+                    // style={{
+                        //         left: 0,
+                        //         top: 0,
+                        //         // height= 100%
+                        //         // width= 100%
+                        //         position: absolute,
+                        //  }}
+                        >
+                    <iframe src='https://www.loom.com/embed/5a55e35216e54a198e4cf083a35c739c'
+                    frameborder='0'
+                    allow='autoplay; encrypted-media'
+                    width="1000"
+                    height="560"
+                    allowfullscreen="true"
+                    title='video'
+                    />
+                </div>
+                <div className="popup-icons">
+                    <h6 className="modal-description">Raregifs is a place to make animated drawings with a gallery to exhibit them</h6>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/Raregifs-front-end", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/Raregifs" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
+            </div>
         )
-        PopupboxManager.open({content})
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Raregifs (2 minute video demonstration)"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
     }
-
-    const popupboxConfigRaregifs = {
-        titleBar: {
-            enable: true,
-            text: "Raregifs project"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
+    
 
     const openPopupboxSnackAttack = () => {
         const content = (
-            <>
-                <img classname="portfolio-image-popupbox" src={SnackAttackPic} alt="SnackAttack Project"/>
-                <p>Snack Attack is an app that lets users discover new snacks</p>
-                <b>Demo:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://www.loom.com/share/1ea233dec08242009e4075ae9280baad", "_blank")}>
-                    https://www.loom.com/share/1ea233dec08242009e4075ae9280baad</a>
-                <br></br>
-                <b>Github:</b> 
-                <a className="hyper-link" 
-                    onClick={() => window.open("https://github.com/BMoClay/snack4")}>
-                        https://github.com/BMoClay/snack4</a>
-            </>
+            <div>
+                <div 
+                    className="video-responsive" 
+                    // style={{
+                    //         left: 0,
+                    //         top: 0,
+                    //         // height= 100%
+                    //         // width= 100%
+                    //         position: absolute,
+                    //  }}
+                    >
+                    <iframe src="https://www.loom.com/embed/1ea233dec08242009e4075ae9280baad"
+                    frameborder='0'
+                    allow='autoplay; encrypted-media'
+                    width="1000"
+                    height="560"
+                    allowfullscreen="true"
+                    title='video'
+                    />
+                </div>
+                <div className="popup-icons">
+                    <h6 className="modal-description">Snack Attack is an app that lets users discover new snacks</h6>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/snack4", "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Frontend
+                        </div>
+                    </div>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/snack4-backend" , "_blank")}>
+                        <div className="popup-links">
+                            <FontAwesomeIcon className="popup-icon" icon={faGithub} />
+                            Backend
+                        </div>
+                    </div>
+                </div>
+            </div>
         )
-        PopupboxManager.open({content})
-    }
-
-    const popupboxConfigSnackAttack = {
-        titleBar: {
-            enable: true,
-            text: "Snack Attack"
-        },
-        fadeIn: true,
-        fadeInSpeed: 500
-    }
-
-
+    
+    PopupboxManager.open({
+        content,
+        config: {
+            titleBar: {
+                enable: true,
+                text: "Snack Atack (1 minute video demonstration)"
+            },
+            fadeIn: true,
+            fadeInSpeed: 500
+        }
+    })
+}
 
     return (
         <div id="portfolio" className="portfolio-wrapper">
@@ -132,25 +181,29 @@ const Portfolio = () => {
                 <h1 className="text-uppercase text-center py-5">portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxiSherpa}>
-                        <img className="portfolio-image" src={iSherpaPic} alt="iSherpa Project"/>
+                        <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/eb6908fc437b4560b158e1d425a24396-with-play.gif" alt="iSherpa Project"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        <h3>iSherpa</h3>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxRaregifs}>
-                        <img className="portfolio-image" src={RaregifsPic} alt="Raregifs Project"/>
+                        <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/5a55e35216e54a198e4cf083a35c739c-with-play.gif" alt="Raregifs Project"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        <h3>Raregifs</h3>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
-                        <img className="portfolio-image" src={SnackAttackPic} alt="Snack Attack Project"/>
+                        <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/1ea233dec08242009e4075ae9280baad-with-play.gif" alt="Snack Attack Project"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        <h3>Snack Attack</h3>
                     </div>
                 </div>
             </div>
-            <PopupboxContainer {...popupboxConfigiSherpa} />
-            <PopupboxContainer {...popupboxConfigRaregifs} />
-            <PopupboxContainer {...popupboxConfigSnackAttack} />
+            {/* <PopupboxContainer {...openPopupboxiSherpa} />
+            <PopupboxContainer {...openPopupboxRaregifs} />
+            <PopupboxContainer {...openPopupboxSnackAttack} /> */}
+            <PopupboxContainer/>
         </div>
     )
 }
