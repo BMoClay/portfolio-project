@@ -17,10 +17,10 @@ const Navbar = () => {
  
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
+                    {/* <li className="nav-item active">
                         <Link smooth={true} to="home" offset={-110} className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item">
+                    </li> */}
+                    <li className="nav-item active">
                         <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">about</Link>
                     </li>
                     <li className="nav-item">

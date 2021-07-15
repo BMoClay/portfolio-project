@@ -93,7 +93,7 @@ const Portfolio = () => {
                 </div>
                 <div className="popup-icons">
                     <h6 className="modal-description">Raregifs is a place to make animated drawings with a gallery to exhibit them</h6>
-                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/Raregifs-front-end", "_blank")}>
+                    <div className="hyper-link" onClick={() => window.open("https://github.com/BMoClay/Raregifs-front-end/tree/master/raregifs", "_blank")}>
                         <div className="popup-links">
                             <FontAwesomeIcon className="popup-icon" icon={faGithub} />
                             Frontend
@@ -182,27 +182,24 @@ const Portfolio = () => {
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxiSherpa}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/eb6908fc437b4560b158e1d425a24396-with-play.gif" alt="iSherpa Project"/>
+                        <h4>iSherpa</h4>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-                        <h3>iSherpa</h3>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxRaregifs}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/5a55e35216e54a198e4cf083a35c739c-with-play.gif" alt="Raregifs Project"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-                        <h3>Raregifs</h3>
+                        <h4>Raregifs</h4>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/1ea233dec08242009e4075ae9280baad-with-play.gif" alt="Snack Attack Project"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-                        <h3>Snack Attack</h3>
+                        <h4>Snack Attack</h4>
                     </div>
                 </div>
             </div>
-            {/* <PopupboxContainer {...openPopupboxiSherpa} />
-            <PopupboxContainer {...openPopupboxRaregifs} />
-            <PopupboxContainer {...openPopupboxSnackAttack} /> */}
             <PopupboxContainer/>
         </div>
     )

@@ -65,7 +65,7 @@ nav ul li {
   background: url(background3.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 65vh;
+  height: 60vh;
 }
 
 .main-info {
@@ -454,10 +454,12 @@ div#portfolio{
   font-size: 2.8rem !important;
 }
 
-.portfolio-wrapper h3 {
+.portfolio-wrapper h4 {
   color: var(--primary-transparent-black);
+  text-align: center;
+  margin-top: 1rem;
   margin-bottom: 0 !important;
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 }
 
 .portfolio-wrapper .py-5 {
