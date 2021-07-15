@@ -113,7 +113,7 @@ const Portfolio = () => {
             config: {
                 titleBar: {
                     enable: true,
-                    text: "Raregifs (2 minute walk-through)"
+                    text: "Raregifs (3 minute walk-through)"
                 },
                 fadeIn: true,
                 fadeInSpeed: 500
