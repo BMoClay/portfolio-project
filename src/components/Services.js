@@ -2,10 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
-import FElanguages from '../languages19.gif'
-import styling from '../styling19.gif'
-import backend from '../databases19.gif'
-import tools from '../tools19.gif'
+import FElanguages from '../language.gif'
+import styling from '../style.gif'
+import backend from '../database.gif'
+import tools from '../tools.gif'
 
 const Services = () => {
     return (
