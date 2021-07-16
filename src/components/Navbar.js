@@ -4,6 +4,7 @@ import {Link} from 'react-scroll';
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import Resume from '../Ben Morgan-Cleveland Software Engineer.pdf';
 
 const Navbar = () => {
     return (
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">services</Link>
+                        <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">skills</Link>
                     </li>
                     {/* <li className="nav-item">
                         <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">experience</Link>
@@ -39,6 +40,9 @@ const Navbar = () => {
                         <Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">contact</Link>
                     </li>
                     </ul>
+                </div>
+                <div className="resume">
+                    <a className="resume-a"href={Resume} target="_blank" rel="noReferrer">Resume</a>
                 </div>
             </div>
         </nav>

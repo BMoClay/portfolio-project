@@ -10,8 +10,9 @@ import tools from '../tools19.gif'
 const Services = () => {
     return (
         <div id="services" className="services-wrapper">
+            <br></br>
             <div className="container">
-                <h1 className="text-uppercase text-center py-5">services</h1>
+                <h1 className="text-uppercase text-center py-5">skills</h1>
                     <div className="container">
                         <div className="row" >
                             <div className="col-lg-6 col-md-6 col-sm-6" >
@@ -50,6 +51,8 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
+                    <br></br>
+                    <br></br>
                 </div>
             </div>
     )
