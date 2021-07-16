@@ -219,18 +219,31 @@ nav ul li {
   transform: translate(-50%, -50%);
 }
 
-.services-wrapper .badge {
+/* .services-wrapper .skills {
   font-size: 1.4rem;
-  color: var(--primary-white);
-  position: absolute;
+  color: var(--primary-blue);
+  position: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+} */
+.services-wrapper .row img {
+  padding-left: .5rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 
+.services-wrapper .row h4 {
+  padding-top: 1.5rem;
+  font-size: 1.5rem !important;
+  color: var(--primary-blue)
+}
 .services-wrapper .row{
+  align-items: space-around;
   float: none;
   margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   position: center;
 }
 
