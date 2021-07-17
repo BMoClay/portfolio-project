@@ -204,9 +204,11 @@ nav ul li {
 }
 
 /*------------ SERVICES --------------*/
-/* #services{
-  padding-top: 1rem;
-} */
+#services #boxes{
+  padding-top: 0rem;
+  padding: 2rem;
+  align-items: space-around;
+}
 
 
 .services-wrapper {
@@ -257,39 +259,59 @@ nav ul li {
     padding-bottom: 0rem;
   }
 }
+.services-wrapper #boxes{
+  padding-bottom: 2rem;
+}
 
 .services-wrapper .row img {
-  padding-left: .5rem;
-  padding-right: 2rem;
+  padding-left: .1rem;
+  padding-right:0rem;
   padding-bottom: 1rem;
 }
 
 .services-wrapper .row h4 {
   padding-top: 1.5rem;
-  font-size: 1.5rem !important;
-  color: var(--primary-blue)
+  font-size: 1.1rem !important;
+  color: var(--primary-black)
 }
 .services-wrapper .row{
   align-items: space-around;
   float: none;
-  margin: auto;
+  /* margin: auto; */
   padding-left: 1rem;
   padding-right: 1rem;
-  position: center;
+  /*position: center; */
 }
 
 .services-wrapper .box {
   
   /* width: 25rem; */
   align-items: space-between; 
-  border-bottom: 0.3125rem solid var(--primary-teal);
-  padding-top: 1rem;
+  border-bottom: .3125rem solid var(--primary-teal);
+  padding-top: 1.5rem;
   padding-right: 1rem;
   padding-left: 1rem;
+  padding-bottom:1rem;
   /* padding: 1.625rem; */
   /* margin-bottom: 1.875rem; */
   /* margin-left: 4rem; */
   background: var(--primary-light-grey);
+  transition: 0.3s ease-in-out;
+}
+
+.services-wrapper .skill-set {
+  
+  /* width: 25rem; */
+  align-items: space-between;
+  position: center; 
+  /* border-bottom: 0.3125rem solid var(--primary-teal); */
+  padding-top: 1rem;
+  /* padding-right: 1rem;
+  padding-left: 1rem; */
+  /* padding: 1.625rem; */
+  /* margin-bottom: 1.875rem; */
+  /* margin-left: 4rem; */
+  /* background: var(--primary-light-grey); */
   transition: 0.3s ease-in-out;
 }
 
@@ -508,17 +530,17 @@ div#portfolio{
 }
 
 .portfolio-wrapper h1{
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   color: var(--primary-transparent-black);
-  margin-bottom: 0 !important;
+  margin-bottom: 2rem !important;
   font-size: 2.7rem !important;
 }
 
 .portfolio-wrapper h4 {
-  color: var(--primary-transparent-black);
+  color: var(--primary-black);
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 0 !important;
+  margin-bottom: 3rem !important;
   font-size: 1.5rem !important;
 }
 
