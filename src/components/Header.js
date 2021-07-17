@@ -12,7 +12,7 @@ const Header = () => {
                 <Typed
                     className='typed-text'
                     // strings={['React', 'Redux', 'Rails', 'Javascript', 'PostgresSQL', 'Firebase', 'Git']}
-                    strings={['React', 'Rails', 'Javascript', 'PostgresSQL', 'Github']}
+                    strings={['Javascript','React','Rails','PostgresSQL']}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
