@@ -3,6 +3,7 @@
 :root {
   --primary-white: #fff;
   --primary-light-grey: #f4f4f4;
+  --primary-new-grey: #292525;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-blue: #2d6bbd;
@@ -179,16 +180,19 @@ nav ul li {
   padding-bottom: 0rem;
 }
 .profile-pic {
-  height: 16rem;
+  height: 17rem;
   border-radius: 50%;
-  padding: .3rem;
-  border: 1px solid var(--primary-yellow);
+  padding-bottom: 0rem;
+  /* border: 1px solid var(--primary-yellow); */
 }
-.p-about {
+.about-me-text {
   /* padding-top: 2rem; */
-  color: var(--primary-dark-grey)
+  /* margin-right: 2rem; */
+  font-size: 1.2rem;
+  color: var(--primary-new-grey)
 }
-.about-heading {
+.heading{
+  /* padding: 1rem; */
   color: var(--primary-yellow);
   text-transform: uppercase;
 }
@@ -204,10 +208,6 @@ nav ul li {
   padding-top: 1rem;
 } */
 
-/* .portfolio-wrapper {
-  position: relative;
-  padding: 4rem;
-} */
 
 .services-wrapper {
   /* position: center;
@@ -217,7 +217,7 @@ nav ul li {
   padding-bottom: 2rem;
   background: var(--primary-white);
 }
- 
+
 .services-wrapper h1 {
   color: var(--primary-yellow);
   text-transform: uppercase;
@@ -256,7 +256,7 @@ nav ul li {
     padding: 0rem 0;
     padding-bottom: 0rem;
   }
- }
+}
 
 .services-wrapper .row img {
   padding-left: .5rem;
@@ -279,7 +279,7 @@ nav ul li {
 }
 
 .services-wrapper .box {
- 
+  
   /* width: 25rem; */
   align-items: space-between; 
   border-bottom: 0.3125rem solid var(--primary-teal);
@@ -376,9 +376,9 @@ nav ul li {
   padding: 0.7rem;
 }
 .experience-wrapper{
-   position: relative;
-   padding: 3.125rem;
-   overflow: hidden;
+  position: relative;
+  padding: 3.125rem;
+  overflow: hidden;
 }
 
 .experience h1 {
@@ -405,7 +405,7 @@ nav ul li {
 }
 
 .timeline-block-right{
- float:right;
+  float:right;
 }
 
 .timeline-block-left{
@@ -449,10 +449,10 @@ nav ul li {
     width:100%;
   }
   .timeline-block-left{
-   float:none;
-   direction: ltr;
-   width:100%;
- }
+    float:none;
+    direction: ltr;
+    width:100%;
+  }
 }
 /*------------ MEDIA --------------*/
 /* @media(max-width: 758px) {
@@ -474,19 +474,25 @@ nav ul li {
   }
 } */
 /*------------ PORTFOLIO --------------*/
+
+/* .portfolio-wrapper {
+  position: relative;
+  padding: 4rem;
+} */
+
 div#portfolio{
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 .portfolio-wrapper {
   background: var(--primary-light-grey);
   position: relative;
-  padding: 6rem;
+  padding: 3rem;
 }
 
 .portfolio-wrapper h3{
   text-align: center;
-  padding-top: .8rem;
+  padding-top: .7rem;
   color: var(--primary-yellow)
 }
 
@@ -495,13 +501,14 @@ div#portfolio{
     padding: 0rem 0;
     padding-bottom: 0rem;
   }
- }
+}
 
 .popupbox-content{
   text-align: center;
 }
 
 .portfolio-wrapper h1{
+  margin-top: 1rem;
   color: var(--primary-transparent-black);
   margin-bottom: 0 !important;
   font-size: 2.7rem !important;
@@ -516,7 +523,7 @@ div#portfolio{
 }
 
 .portfolio-wrapper .py-5 {
-  padding: 1.5rem!important;
+  padding: 1.3rem!important;
 }
 
 #portfolio-overlap {
@@ -535,14 +542,16 @@ div#portfolio{
   height: 8.8rem; */
   width: 20rem;
   height: 12rem;
-  border: 1px solid var(--primary-hover-yellow);
-  padding: 0;
+  /* border: 1px solid var(--primary-hover-yellow); */
+  padding: .1rem;
 }
 
 .portfolio-image-box {
   /* width: 15rem; */
   position: relative;
-  margin: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* margin: .9rem; */
 }
 
 /***************** Overflow Box ******************/
@@ -555,7 +564,7 @@ div#portfolio{
   /* width: 14.5rem;
   height: 8.8rem; */
   top: 0;
-  border: 1px solid var(--primary-yellow);
+  /* border: 1px solid var(--primary-yellow); */
   cursor: pointer;
 }
 
@@ -564,9 +573,9 @@ div#portfolio{
   transition: 0.3s ease-in-out;
 }
 
-.portfolio-image-box:hover .portfolio-image {
+/* .portfolio-image-box:hover .portfolio-image {
   border: 1px solid var(--primary-dark-grey);
- }
+ } */
 
 .portfolio-icon {
   position: absolute;

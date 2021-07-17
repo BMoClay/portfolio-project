@@ -176,7 +176,7 @@ const Portfolio = () => {
 
     return (
         <div id="portfolio" className="portfolio-wrapper">
-            <div className="container">
+            <div className="">
                 <h1 className="text-uppercase text-center py-5">portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center">
                     <div className="portfolio-image-box" onClick={openPopupboxiSherpa}>
@@ -197,6 +197,12 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                         <h4>Snack Attack</h4>
                     </div>
+                    {/* <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
+                        <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/1ea233dec08242009e4075ae9280baad-with-play.gif" alt="Snack Attack Project"/>
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        <h4>Snack Attack</h4>
+                    </div> */}
                 </div>
             </div>
             <PopupboxContainer/>
