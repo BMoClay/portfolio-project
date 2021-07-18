@@ -17,11 +17,13 @@ const AboutMe = () => {
                         <h1 className="heading">about me</h1>
                         {/* <br></br> */}
                             <p className="about-me-text">
-                                I'm a Full stack web developer based in Brooklyn. I have
-                                experience building applications with Ruby on Rails backend and 
-                                JavaScript based programming such as React for the frontend. I'm an 
-                                open minded, innovative thinker with a
-                                background in fine arts and small business ownership.
+                                Hey there!  I'm Ben Morgan-Cleveland a 
+                                software engineer based in Brooklyn. 
+                                I'm adept at building full stack applications using Javascript, 
+                                React Hooks and Ruby on Rails. I'm an open minded, 
+                                innovative thinker with a
+                                background in small business ownership 
+                                in the fine arts industry.
                                 {/* , I have broad spectrum
                                  of experience.  */}
                                 {/*My projects incorporate 
