@@ -24,30 +24,18 @@ const Services = () => {
                                     <div className="grid">
                                         <div className="skills-zone">
                                             <div className="skill-set">
-                                                <tr>
-                                                    <h4>Languages:<img src={FElanguages} alt="animated gif javascript, react, rails logos"/></h4>
-                                                </tr>
-                                                <tr>
-                                                    <h8>Javascript, HTML, CSS, Ruby</h8>
-                                                </tr>
+                                                <h4>Languages:<img src={FElanguages} alt="animated gif javascript, react, rails logos"/></h4>
+                                                <h6>javascript, html, css, ruby</h6>
                                             </div>
                                             <div className="skill-set">
-                                                <tr>
-                                                    <h4>Libraries:<img src={library} alt="animated gif javascript, react, rails logos"/></h4>
-                                                </tr>
+                                                <h4>Libraries:<img src={library} alt="animated gif javascript, react, rails logos"/></h4>                                                
                                             </div>
                                             <div className="skill-set">
-                                                <tr>
-                                                    <h4>Frameworks:<img src={frameworks} alt="animated gif css html bootstrap semantic ui logos"/></h4>
-                                                </tr>
-                                                <tr>
-                                                    <h8>Rails, Bootstrap, Material UI, Semantic UI</h8>
-                                                </tr>
+                                                <h4>Frameworks:<img src={frameworks} alt="animated gif css html bootstrap semantic ui logos"/></h4>
+                                                <h6>rails, bootstrap, material UI, semantic UI</h6>
                                             </div>
                                             <div className="skill-set">
-                                                <tr>
-                                                    <h4>Database:<img src={databasepic} alt="animated gif javascript, react, rails logos"/></h4>
-                                                </tr>
+                                                <h4>Databases:<img src={databasepic} alt="animated gif javascript, react, rails logos"/></h4>
                                             </div>
                                         </div>
                                     </div>
@@ -58,33 +46,33 @@ const Services = () => {
                                             <FontAwesomeIcon className="icon" icon={faDesktop} size='2x'/>
                                         </div>
                                         <h3>Web Design</h3>
-                                        <p>I approach each project individually with a focus on results. I work with React, CSS, Bootstrap, Material UI and Semantic UI to create an intuitve user experience.
+                                        <p>I approach each project individually with a focus on 
+                                            results. I work with React, CSS, Bootstrap and more
+                                             to create an intuitve user experience.
                                         </p>
-                                    </div>
+                                    </div>            
+                                    <br></br>
+                                    <br></br>
                                     <br></br>
                                     <div className="box">
                                         <div className='circle'>
                                             <FontAwesomeIcon className="icon" icon={faFileCode} size='2x'/>
                                         </div>
                                         <h3>Web Development</h3>
-                                        <p>I Implement new proven backend technologies such as Ruby on Rails along with PostgresSQL for the database for an efficient, readable full backend.</p>
+                                        <p>I Implement new proven backend technologies 
+                                            such as Ruby on Rails for an efficient, readable backend.</p>
                                     </div>
-                                    {/* <br></br> */}
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-4" >
                                     <div className="grid">
                                         <div className="skills-zone">
                                             <div className="skill-set">
                                                 <h4>Platforms:<img src={platforms} alt="animated gif css html bootstrap semantic ui logos"/></h4>
-                                                <tr>
-                                                    <h8>netlify, firebase, postman</h8>
-                                                </tr>
+                                                <h6>netlify, firebase, postman</h6>
                                             </div>
                                             <div className="skill-set">
                                                 <h4>Features:<img src={featuresgif} alt="animated gif css html bootstrap semantic ui logos"/></h4>
-                                                <tr>
-                                                    <h8>React Hooks, Redux, Google OAuth</h8>
-                                                </tr>
+                                                <h6>react hooks, redux, google oAuth</h6>
                                             </div>
                                             <div className="skill-set">
                                                 <h4>Repository:<img src={repositorypic} alt="logo github"/></h4>
@@ -98,10 +86,6 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
                 </div>
         )
 }

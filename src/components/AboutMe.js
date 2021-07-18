@@ -14,6 +14,7 @@ const AboutMe = () => {
                         <br></br>
                     </div>
                     <div className="col-lg-6 col-xm-12">
+                    <br></br>
                         <h1 className="heading">about me</h1>
                         {/* <br></br> */}
                             <p className="about-me-text">
