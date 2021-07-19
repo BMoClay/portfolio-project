@@ -15,17 +15,16 @@ import databasepic from './skills_images/postgresql2L.png'
 const Services = () => {
     return (
             <div id="services" className="services-wrapper">
-                <br></br>
                 <div className="">
-                    <h1 className="text-uppercase text-center py-5">skills</h1>
                         <div className="container">
+                    <h1 className="text-uppercase text-center py-5">skills</h1>
                             <div className="row" >
                                 <div className="col-lg-4 col-md-4 col-sm-4" >
                                     <div className="grid">
                                         <div className="skills-zone">
                                             <div className="skill-set">
                                                 <h4>Languages:<img src={FElanguages} alt="animated gif javascript, react, rails logos"/></h4>
-                                                <h6>javascript, html, css, ruby</h6>
+                                                <h6>javascript, ruby, html, css</h6>
                                             </div>
                                             <div className="skill-set">
                                                 <h4>Libraries:<img src={library} alt="animated gif javascript, react, rails logos"/></h4>                                                
@@ -38,6 +37,7 @@ const Services = () => {
                                                 <h4>Databases:<img src={databasepic} alt="animated gif javascript, react, rails logos"/></h4>
                                             </div>
                                         </div>
+                                        <br></br>
                                     </div>
                                 </div>
                                 <div id="boxes" className="col-lg-4 col-md-4 col-sm-4">
@@ -51,7 +51,6 @@ const Services = () => {
                                              to create an intuitve user experience.
                                         </p>
                                     </div>            
-                                    <br></br>
                                     <br></br>
                                     <br></br>
                                     <div className="box">
@@ -78,9 +77,10 @@ const Services = () => {
                                                 <h4>Repository:<img src={repositorypic} alt="logo github"/></h4>
                                             </div>
                                             <div className="skill-set">
-                                                <h4>Editor:<img src={editorpic} alt="vscodo logo"/></h4>
+                                                <h4>Code Editor:<img src={editorpic} alt="vscodo logo"/></h4>
                                             </div>
                                         </div>
+                                        <br></br>
                                     </div>
                                 </div>
                             </div>

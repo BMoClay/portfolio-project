@@ -18,7 +18,7 @@ const AboutMe = () => {
                         <h1 className="heading">about me</h1>
                         {/* <br></br> */}
                             <p className="about-me-text">
-                                Hey there!  I'm Ben Morgan-Cleveland a 
+                                Hey I'm Ben Morgan-Cleveland a 
                                 software engineer based in Brooklyn. 
                                 I'm adept at building full stack applications using Javascript, 
                                 React Hooks and Ruby on Rails. I'm an open minded, 
