@@ -7,7 +7,7 @@ const Footer = () => {
         <div id="footer" className="footer">
             <div className="container">
                 <div className="row">
-                    <h1>contact</h1>
+                    {/* <h1>contact</h1>
                     <div className="contact">
                         <div className="d-flex justify-content-center">
                             <div className="contact-gmail">
@@ -15,7 +15,7 @@ const Footer = () => {
                             <h4>compose email</h4>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <h1>Social</h1>
                     <div className="social" >
                         <div className="d-flex justify-content-center">

@@ -728,8 +728,8 @@ div#portfolio{
 /* ***************** Contact Component***************************  */
 .contact{
   /* background: var(--primary-dark); */
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
 }
 
 .contact h4 {
@@ -847,7 +847,7 @@ textarea.form-control{
   /* align-items: center !important; */
   background: var(--primary-dark-grey);
   color: var(--primary-white);
-  padding: .5rem;
+  padding-top: .5rem;
   
 }
 
@@ -858,13 +858,15 @@ textarea.form-control{
 }
 
 .footer h1 {
+  color: var(--primary-teal) !important;
   text-align: center;
   text-transform: uppercase;
   padding-top: 1rem;
-  /* padding-bottom: 1rem; */
-  padding-left: 1rem;
+  text-transform: bolder;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
   /* padding-right: 1rem; */
-  font-size: 2.7rem !important;
+  font-size: 2.8rem !important;
 }
 
 .footer a {
@@ -926,9 +928,9 @@ textarea.form-control{
 .footer h6 {
   color: var(--primary-white);
   /* background-color: var(--primary-black) !important; */
-  align-items: left;
+  /* align-items: left;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2rem; */
 }
 
 /* .footer h4:hover{
@@ -964,6 +966,71 @@ textarea.form-control{
 
 div .contact {
   padding-left: .5rem;
+  padding-right: .5rem;
+}
+div .social{
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+/***************** BOTTOM FOOT ******************/
+
+.bottom-foot {
+  padding-top: .6rem;
+  background-color: var(--primary-black);
+}
+
+.bottom-foot h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  color: var(--primary-yellow);
+  /* padding-bottom: 1rem; */
+  padding-left: 1.5rem;
+  /* padding-right: 1rem; */
+  font-size: 2.7rem !important;
+}
+
+.bottom-foot h4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--primary-light-grey);
+  padding-top: .1rem;
+  text-align: center;
+  align-items: center !important;
+  font-size: 1.3rem !important;
+}
+
+.bottom-foot h6{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  color: var(--primary-yellow);
+  padding-top: .1rem;
+  margin-left: 1rem;
+  /* text-align: center; */
+  align-items: center !important;
+  font-size: .9rem !important;
+}
+
+.bottom-foot .icon:hover{
+  text-decoration: none;
+  /* color: var(--primary-hover-yellow); */
+  background-color: var(--primary-yellow); 
+  cursor: pointer;
+}
+
+.bottom-foot .row {
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.bottom-foot h6{
+  /* text-align: center !important; 
+  align-items: center !important; */
+  color: var(--primary-light-grey);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
 }
 
 
