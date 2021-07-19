@@ -1,5 +1,6 @@
-import React from 'react'
-import {SocialIcon} from 'react-social-icons'
+import React from 'react';
+import {SocialIcon} from 'react-social-icons';
+import rfalogo from './skills_images/real_fine_arts_logo.jpeg';
 
 const BottomFoot = () => {
     return (
@@ -19,17 +20,17 @@ const BottomFoot = () => {
                         </div>
                         <div className="row">
 
-                        <div className="footers">
-                            <h6>Ben Morgan-Cleveland</h6>
-                            <h6>benmorgancleveland@gmail.com</h6>
-                            <h6>646 662-1785</h6>
-                        </div>                        
-                        <div className="footers">
-                        </div>
-                        <div className="footers">
-                        </div>
-                        <div className="footers">
-                        </div>
+                            <div className="footers">
+                                <h6>Ben Morgan-Cleveland</h6>
+                                <h6>benmorgancleveland@gmail.com</h6>
+                                <h6>646 662-1785</h6>
+                            </div>                        
+                            <div className="footers">
+                                <div className="bonus" onClick={() => window.open("http://realfinearts.com/", "_blank")}>
+                                    <h6><img src={rfalogo} alt="rfa logo"/></h6>
+                                    <h6>*past project</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>                    
