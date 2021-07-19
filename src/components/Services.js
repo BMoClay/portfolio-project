@@ -10,6 +10,7 @@ import featuresgif from './skills_images/features77.gif'
 import repositorypic from './skills_images/github2L.png'
 import editorpic from './skills_images/vscode2L.png'
 import databasepic from './skills_images/postgresql2L.png'
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 const Services = () => {
@@ -73,8 +74,8 @@ const Services = () => {
                                                 <h4>Features:<img src={featuresgif} alt="animated gif css html bootstrap semantic ui logos"/></h4>
                                                 <h6>react hooks, redux, google oAuth</h6>
                                             </div>
-                                            <div className="skill-set">
-                                                <h4>Repository:<img src={repositorypic} alt="logo github"/></h4>
+                                            <div className="skill-set" id="repo" onClick={() => window.open("https://github.com/BMoClay", "_blank")}>
+                                                <h4>Repository:<img src={repositorypic} alt="logo github" /></h4>
                                             </div>
                                             <div className="skill-set">
                                                 <h4>Code Editor:<img src={editorpic} alt="vscodo logo"/></h4>

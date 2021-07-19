@@ -11,7 +11,8 @@ const BottomFoot = () => {
                         <div className="contact">
                             <div className="d-flex justify-content-center">
                                 <div className="contact-gmail">
-                                    <SocialIcon className="icon" target="_blank" rel="noreferrer" url="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMFzlHHLfLwWgshPpZvgVGvzMlfMSLcSdRStpvmpjhjMJXBQrDPrrZcnWZMWQlMZCgzGbZ" bgColor="white"/>
+                                    {/* <SocialIcon className="icon" target="_blank" rel="noreferrer" url="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMFzlHHLfLwWgshPpZvgVGvzMlfMSLcSdRStpvmpjhjMJXBQrDPrrZcnWZMWQlMZCgzGbZ" bgColor="white"/> */}
+                                    <SocialIcon className="icon" target="_blank" rel="noreferrer" url="https://mail.google.com/mail/?view=cm&fs=1&to=benmorgancleveland@gmail.com&su=Hello, I was on your portfolio website and decided to reach out!&body=" bgColor="white"/>
                                 <h4>compose email</h4>
                                 </div>
                             </div>

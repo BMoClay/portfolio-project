@@ -324,7 +324,31 @@ div#services{
     padding-top: 4rem;
     transition: 0.3s ease-in-out;
   }
+
+  .services-wrapper #repo img:hover{
+    text-align: center;
+    background: var(--primary-teal);
+    cursor: pointer;
+  }
+
+  .services-wrapper .popup-links h4{
+    text-align: center;
+    align-items: space-between;
+    position: center; 
+    text-align: center;
+    /* padding-top: 4rem; */
+    transition: 0.3s ease-in-out;
+  }
   
+
+  /* div .hyper-link .popup-links{
+    text-align: right;
+    align-items: space-between;
+    position: center; 
+    padding-right: 3rem;
+    transition: 0.3s ease-in-out;
+  } */
+
   .services-wrapper .row:hover {
     border-bottom: var(--primary-blue);
   }
@@ -726,11 +750,10 @@ div#portfolio{
 
 
 /* ***************** Contact Component***************************  */
-.contact{
+/* .contact{
   /* background: var(--primary-dark); */
   /* padding-left: 1rem;
   padding-right: 1rem; */
-}
 
 .contact h4 {
   text-align: center;
@@ -898,8 +921,8 @@ textarea.form-control{
   /* align-items: center !important; */
   /* color: var(--primary-dark-grey); */
   /* text-align: center; */
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
   /* padding-left: 1.5rem;
   padding-right: 1.5rem; */
 }
@@ -941,7 +964,7 @@ textarea.form-control{
 .footer .icon:hover{
   text-decoration: none;
   /* color: var(--primary-hover-yellow); */
-  background-color: var(--primary-blue); 
+  background-color: var(--primary-teal); 
   cursor: pointer;
 }
 
@@ -985,14 +1008,14 @@ div .social{
   padding-top: 1rem;
   color: var(--primary-yellow);
   /* padding-bottom: 1rem; */
-  padding-left: 1.5rem;
-  /* padding-right: 1rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
   font-size: 2.7rem !important;
 }
 
 .bottom-foot h4{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   color: var(--primary-light-grey);
   padding-top: .1rem;
   text-align: center;
