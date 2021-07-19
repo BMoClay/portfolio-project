@@ -27,7 +27,7 @@ const BottomFoot = () => {
                             </div>                        
                             <div className="footers">
                                 <div className="bonus" onClick={() => window.open("http://realfinearts.com/", "_blank")}>
-                                    <h6><img src={rfalogo} alt="rfa logo"/></h6>
+                                    <h6><img src={rfalogo} alt="rfa logo" className="icon"/></h6>
                                     <h6>*past project</h6>
                                 </div>
                             </div>
