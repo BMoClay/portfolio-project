@@ -34,14 +34,14 @@ const Navbar = () => {
                         <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">experience</Link>
                     </li> */}
                     <li className="nav-item">
-                        <Link smooth={true} to="footer" offset={-110} className="nav-link" href="#">social</Link>
+                        <Link smooth={true} to="footer" offset={-110} className="nav-link" href="#">social/contact</Link>
                     </li>
                     {/* <li className="nav-item">
                         <a className="nav-link"  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMFzlHHLfLwWgshPpZvgVGvzMlfMSLcSdRStpvmpjhjMJXBQrDPrrZcnWZMWQlMZCgzGbZ" target="_blank">contact</a>
                     </li> */}
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                     <Link smooth={true} to="footer" offset={-110} className="nav-link" href="#">contact</Link>
-                    </li>
+                    </li> */}
                     </ul>
                 </div>
                 <div className="resume">

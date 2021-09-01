@@ -182,19 +182,20 @@ const Portfolio = () => {
                     <div className="portfolio-image-box" onClick={openPopupboxiSherpa}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/eb6908fc437b4560b158e1d425a24396-with-play.gif" alt="iSherpa Project"/>
                         <div className="overflow"></div>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        {/* <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} /> */}
                         <h4>iSherpa</h4>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxRaregifs}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/5a55e35216e54a198e4cf083a35c739c-with-play.gif" alt="Raregifs Project"/>
                         <div className="overflow"></div>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-                        <h4>Raregifs</h4>
+                        {/* <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} /> */}
+                        {/* <h4>Raregifs</h4> */}
+                        <h4 className="hyper-link" onClick={() => window.open("https://raregifs.netlify.app/" , "_blank")}>Raregifs (deployed)</h4>
                     </div>
                     <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
                         <img className="portfolio-image" src="https://cdn.loom.com/sessions/thumbnails/1ea233dec08242009e4075ae9280baad-with-play.gif" alt="Snack Attack Project"/>
                         <div className="overflow"></div>
-                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                        {/* <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} /> */}
                         <h4>Snack Attack</h4>
                     </div>
                     {/* <div className="portfolio-image-box" onClick={openPopupboxSnackAttack}>
